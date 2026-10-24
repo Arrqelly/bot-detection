@@ -1,0 +1,10 @@
+# Only runtime code, dependencies and tests belong in the build context.
+**
+!Dockerfile
+!.dockerignore
+!requirements.txt
+!solution.py
+!benchmark.py
+!metric.py
+!tests/
+!tests/*.py
